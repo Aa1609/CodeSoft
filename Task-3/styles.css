@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+body {
+    background: #fff ;
+    background-image: url(C7PEybs.gif);
+    height: 100%;
+    background-repeat: repeat;
+    
+}
+
+h1 {
+    padding-top: 30px;
+    margin: 30px;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    font-size:40px;
+    transition: transform 0.3s ease-in-out;
+}
+h1:hover{
+    transform: scale(1.1);
+}
+
+.center {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+
+#calc_body {
+    margin-top: 20px;
+    border: 5px solid black;
+    width: 398px;
+    height: 450px;
+    opacity: 0.95;
+    background-color:#dc8892;
+    border-radius: 15px;
+    box-shadow: #000 0px 0px 20px;
+    transition: transform 0.3s ease-in-out
+}
+#calc_body:hover{
+    transform: scale(1.018);
+}
+
+#screen {
+    margin: 5% 3%;
+    height: 85px;
+    border: 2px solid black;
+    background-color: #5f5d5d;
+    color:  #ffffff;
+    border-radius: 15px;
+    
+}
+
+button {
+    background-image: url('bg.webp');
+    height: 48px;
+    width: 65px;
+    border: none;
+    margin: 5px;
+    background-color: #c7c0c0;
+    border-radius: 50%;
+    box-shadow: #000 0px 0px 7px;
+    font-size: 20pt;
+    transition: 0.1s ease;
+    cursor:grab;
+}
+
+
+#num0 {
+    width: 175px;
+}
+
+#equal_to {
+    height: 175px;
+}
+
+table {
+    margin: 10px;
+}
+
+.operation {
+    background-color: #939393;
+}
+
+.del {
+    background-color: #ff7171;
+}
+
+#equal_to {
+    background-color: #ff8400;
+}
+
+#screen {
+    text-align: left;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+#inputDisplay {
+    text-align: left;
+}
+
+#resultDisplay {
+    text-align: right;
+    font-size: 32px;
+    position: absolute;
+    bottom: 0;
+    font-weight: bold;
+    right: 10px;
+}
+
+button:hover {
+    scale: 1.1;
+    background-color: #ffc0cb;
+}
+
+button:active {
+    scale: 1;
+    background-color: #c7c0c0;
+}
